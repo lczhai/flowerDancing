@@ -14,6 +14,8 @@
 		A416B6551D58771800C4C3E6 /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A416B6531D58771800C4C3E6 /* ____.xcdatamodeld */; };
 		A416B6571D58771800C4C3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A416B6561D58771800C4C3E6 /* Assets.xcassets */; };
 		A416B65A1D58771800C4C3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A416B6581D58771800C4C3E6 /* LaunchScreen.storyboard */; };
+		A416B6631D58776100C4C3E6 /* rose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A416B6621D58776100C4C3E6 /* rose.jpg */; };
+		A416B6661D58777300C4C3E6 /* PetalsDancing.m in Sources */ = {isa = PBXBuildFile; fileRef = A416B6651D58777300C4C3E6 /* PetalsDancing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		A416B6561D58771800C4C3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A416B6591D58771800C4C3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A416B65B1D58771800C4C3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A416B6621D58776100C4C3E6 /* rose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rose.jpg; sourceTree = "<group>"; };
+		A416B6641D58777300C4C3E6 /* PetalsDancing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetalsDancing.h; sourceTree = "<group>"; };
+		A416B6651D58777300C4C3E6 /* PetalsDancing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetalsDancing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 		A416B6461D58771800C4C3E6 /* 花瓣飞舞 */ = {
 			isa = PBXGroup;
 			children = (
+				A416B6611D58772900C4C3E6 /* PetalsDancing  */,
 				A416B64A1D58771800C4C3E6 /* AppDelegate.h */,
 				A416B64B1D58771800C4C3E6 /* AppDelegate.m */,
 				A416B64D1D58771800C4C3E6 /* ViewController.h */,
@@ -80,6 +86,16 @@
 				A416B6481D58771800C4C3E6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A416B6611D58772900C4C3E6 /* PetalsDancing  */ = {
+			isa = PBXGroup;
+			children = (
+				A416B6621D58776100C4C3E6 /* rose.jpg */,
+				A416B6641D58777300C4C3E6 /* PetalsDancing.h */,
+				A416B6651D58777300C4C3E6 /* PetalsDancing.m */,
+			);
+			path = "PetalsDancing ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A416B6631D58776100C4C3E6 /* rose.jpg in Resources */,
 				A416B65A1D58771800C4C3E6 /* LaunchScreen.storyboard in Resources */,
 				A416B6571D58771800C4C3E6 /* Assets.xcassets in Resources */,
 				A416B6521D58771800C4C3E6 /* Main.storyboard in Resources */,
@@ -153,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A416B64F1D58771800C4C3E6 /* ViewController.m in Sources */,
+				A416B6661D58777300C4C3E6 /* PetalsDancing.m in Sources */,
 				A416B6551D58771800C4C3E6 /* ____.xcdatamodeld in Sources */,
 				A416B64C1D58771800C4C3E6 /* AppDelegate.m in Sources */,
 				A416B6491D58771800C4C3E6 /* main.m in Sources */,

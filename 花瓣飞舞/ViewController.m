@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "PetalsDancing.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	
+	PetalsDancing *flower = [[PetalsDancing alloc]initWithFrame:self.view.bounds];
+	[self.view addSubview:flower];
+	
 }
 
 - (void)didReceiveMemoryWarning {
